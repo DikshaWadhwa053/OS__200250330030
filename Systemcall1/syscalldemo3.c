@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
         perror("there is some error in open");
         return -1;
     }
-    write(fd,"cdac hyd\n",9);
+    write(fd,"cdac hyd\n",8);
     close(fd);
     return 0;
 }
