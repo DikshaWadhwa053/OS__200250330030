@@ -15,4 +15,11 @@ Lecture 5:
 
 *System calls are not buffered I/O and dont have formatted I/O.
 
+*int - file descriptor -
+    -> 0 - standard input
+    -> 1 - standard output
+    -> 2 - standard error
+
+
+
 
