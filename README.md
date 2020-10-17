@@ -1,6 +1,16 @@
 #OS__200250330030
 
 Lecture 4:
+*Lstrace
+    ->Library calls under executables
+    ->user space
+    ->Non privileged
+
+*Strace
+    ->System calls under execution
+    ->kernal space
+    ->priveleged
+    
 *Used O_CREAT in Open
     ->int file descriptor.
     ->fd represents an open file in the kernal
