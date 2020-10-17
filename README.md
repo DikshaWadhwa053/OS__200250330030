@@ -32,11 +32,25 @@ Lecture 5:
     ->Running:Only one process at a time
     ->Waiting:Ex Scanf;multiple processes
     ->Destroy:Deallocation  of Resources
-
     ->Waiting to destroy state:Ctrl+C
     ->Ready to destroy state:kill command
     ->create to destroy not possible
-     
+
+*Scheduling Algorithm:
+    ->Will help in choosing the next process for execution(on priority basis or first come first serve)
+
+*Context Switching:
+    ->Switching between processes
+    ->Context here referrs to the hardware registers 
+        $PC
+        $SP
+        $GPR
+        $flags
+    ->p1>Context Saving(Current Process)>Scheduling>Context Restoring(New Process)>p2
+
+*Blocking and Non blockin calls:
+    ->Non Blocking Calls: Ex printf(immediately returns back after doing is functionality)
+    ->Blocking calls: Ex scanf(will wait for the input from the user).
 
 
 
