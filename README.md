@@ -20,6 +20,12 @@ Lecture 5:
     -> 1 - standard output
     -> 2 - standard error
 
+*Fork
+    -> fork can be shared using fork -r <file name> forksharing
+    ->Output in Child and Parent when a change is made in parent will be depicted in child as well
+    ->man Sleep
+    
+
 
 
 
