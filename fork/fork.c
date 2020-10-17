@@ -11,6 +11,7 @@ int main(int argc, char const *argv[])
         if(id==0)
         {
             printf("Child id:\n");
+            printf("execution before fork id\t PID\t PPID\t :%d %d %d\n",id,getpid(),getppid());
         }
         else
         {
