@@ -37,17 +37,26 @@ and SP on end of Stack frame.
         =>larith :library name
         =>-L. :currnet directory
         =>we are telling these details to the complier and linker
+    ->In this,all the files includeing main.o is loaded to the address space.
+    ->Wastage of memory.
+    ->no dependency
 
 
 *How to create a Dynamic Library:
     ->gcc -o libarith.so 1.o 2.o 3.o.... -shared -fPIC
         =>shared object
         =>fPIC :position independent code
+    *Where is the Shared object?:
     ->Build time:gcc -o main main.c -larith -L.
         =>L.:path of the library
     ->Run time:(shell variable) export LD_LIBRARY_PATH=.
+    ->In this,only main.o file is loaded to the address space not the definations instead of that library(* .so) is loaded and it will refer to the required fxnality.
+    ->Memory Utilization
+    ->dependency(ldd)
 
-    
+*LDD: Dependency of binary on object files
+
+
 Lecture 4:
 *Lstrace
     ->Library calls under executables
