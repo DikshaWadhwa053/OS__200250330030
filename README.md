@@ -38,6 +38,8 @@ and SP on end of Stack frame.
         =>-L. :currnet directory
         =>we are telling these details to the complier and linker
     ->In this,all the files includeing main.o is loaded to the address space.
+    ->LIB fxn defination embedded in binary
+    ->multiple copies of library fxn
     ->Wastage of memory.
     ->no dependency
 
@@ -51,6 +53,7 @@ and SP on end of Stack frame.
         =>L.:path of the library
     ->Run time:(shell variable) export LD_LIBRARY_PATH=.
     ->In this,only main.o file is loaded to the address space not the definations instead of that library(* .so) is loaded and it will refer to the required fxnality.
+    ->LIB fxn derefernce defination embedded in binary.
     ->Memory Utilization
     ->dependency(ldd)
 
