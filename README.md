@@ -32,8 +32,22 @@ and SP on end of Stack frame.
 
 *How to create Static Libraries
     ->Extract : ar x
-    ->ar crv libname.a add.o sub.o .........n.o
+    ->Create :ar crv libname.a add.o sub.o .........n.o
+    ->gcc -o main main.c -larith -L.
+        =>larith :library name
+        =>-L. :currnet directory
+        =>we are telling these details to the complier and linker
 
+
+*How to create a Dynamic Library:
+    ->gcc -o libarith.so 1.o 2.o 3.o.... -shared -fPIC
+        =>shared object
+        =>fPIC :position independent code
+    ->Build time:gcc -o main main.c -larith -L.
+        =>L.:path of the library
+    ->Run time:(shell variable) export LD_LIBRARY_PATH=.
+
+    
 Lecture 4:
 *Lstrace
     ->Library calls under executables
