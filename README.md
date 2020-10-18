@@ -1,4 +1,38 @@
 #OS__200250330030
+Lecture 1: 
+
+*Difference between a program and process
+*Compiling and linking
+*Build Process
+*Created Makefile and used make
+*git
+    ->git init
+    ->git status
+    ->git log
+    ->git add
+    ->git commit -m
+
+Lecture 2:
+*Stack pointer:points to Top of the stack 
+
+*Stack frame:all the arguments,variables,return address are updated when the fxn is called
+
+*Frame pointer:always on starting of Stack frame
+and SP on end of Stack frame.
+
+*Careful while using recursive fxn as SF will keep on adding if there is not return command.
+
+*Libraries
+    ->Standard Libraries (linux -libc.a and libc.so)
+    -> User Libraries or 3rd party library
+
+*Types:
+    ->Static =>extension( *.a)
+    ->Dynamic(Shared Objects) =>extension( *.so)
+
+*How to create Static Libraries
+    ->Extract : ar x
+    ->ar crv libname.a add.o sub.o .........n.o
 
 Lecture 4:
 *Lstrace
@@ -10,7 +44,7 @@ Lecture 4:
     ->System calls under execution
     ->kernal space
     ->priveleged
-    
+
 *Used O_CREAT in Open
     ->int file descriptor.
     ->fd represents an open file in the kernal
