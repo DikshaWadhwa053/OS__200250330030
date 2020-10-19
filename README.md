@@ -122,6 +122,18 @@ Lecture 5:
     ->Non Blocking Calls: Ex printf(immediately returns back after doing is functionality)
     ->Blocking calls: Ex scanf(will wait for the input from the user).
 
+Lecture 6:
 
+*Inter Process Communication(IPC):
+    ->How P1 communicate to P2.
+
+    1.Pipes:
+        ->Unidirectional
+        ->Work only between b/w Related Process(ex:fork)
+        -Man pipe
+        ->array of two file descriptors 
+        ->0 =Reading
+        ->1= Writing
+        ->FDs is inherited by both parent and child
 
 
