@@ -140,6 +140,13 @@ Lecture 6:
         ->Unrelated processes
         ->unidirectional
         ->Named pipes
-        ->mkfido -m(mode)
+        ->mkfido -m(mode): an API and Command
+
+*Assignment:
+    ->p1: Get two integer inputs
+    ->p1: Send it to another p2
+    ->p2:  Rx two integers
+    ->p2: Add two integers
+    ->p2: send it to p1
 
 
