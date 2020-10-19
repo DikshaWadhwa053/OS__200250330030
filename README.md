@@ -133,7 +133,13 @@ Lecture 6:
         -Man pipe
         ->array of two file descriptors 
         ->0 =Reading
-        ->1= Writing
+        ->1 =Writing
         ->FDs is inherited by both parent and child
+
+    2.FIFO:
+        ->Unrelated processes
+        ->unidirectional
+        ->Named pipes
+        ->mkfido -m(mode)
 
 
