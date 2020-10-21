@@ -192,6 +192,18 @@ Lecture 7:
         =>Ex:QNX,Minix
 
 
+*Thread:
+    ->POSIX:Portable Operating System Interface for Unices.
+    ->Opaque Data types
+    ->Man pthread_create
+    ->Library pthread
+    ->pthread_t
+    ->pthread_attr_t:Attributes
+        =>Joinable and Detachable.
+        =>Scheduling Policy.
+        =>Priority.
+        =>Inheritance.
+
 
 
 
