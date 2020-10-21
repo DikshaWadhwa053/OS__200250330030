@@ -148,5 +148,50 @@ Lecture 6:
     ->p2:  Rx two integers
     ->p2: Add two integers
     ->p2: send it to p1
+    ->p1: print the result
+
+
+Lecture 7:
+*Batch :
+    ->similar type of files like(c,java..) are loaded once as a batch.
+
+*Multi Programming:
+    ->Multiple no. of programs can be loaded to memory at once
+    ->problem of starving is there.
+
+*Multi Tasking:
+    ->Multiple tasks can be run at a time.
+    ->better than multiprogramming.
+    ->time sharing is possible.
+    ->Response time is improved
+    ->Pseudo Parallelism.
+
+*Multi Threading:
+    ->Divides the flow of execution into one or more threads
+    ->but in psuedo parallelism(one thread is running at a time as it is uniprocessor system).
+
+*Multi User:
+    ->More than one user possible.
+    Ex:Linux
+
+*PCB(Program Control Board):
+    ->Monolithic Approach:
+        =>Single Big Address space for all resources(Process Mgmt,Memory Mgmt,I/O).
+        =>Sharing is easy.
+        =>To add new Functionality is difficult.
+        =>Crashing is more often failure in one leads to other
+        =>Ex:Linux,FreeRTOS
+    
+    ->Micro Kernal Approach:
+        =>Separate smalladdress spaces are there and sharing through Software bus with kernal.
+        =>Less Failure.
+        =>New fxnality can be added easily
+        =>Some are priveleged some are not
+        =>System Processes:Privileged Ex:N/wing,DDs.
+        =>User Processes:Non Privileged Ex:MP3,Editor
+        =>Ex:QNX,Minix
+
+
+
 
 
