@@ -203,6 +203,11 @@ Lecture 7:
         =>Scheduling Policy.
         =>Priority.
         =>Inheritance.
+    ->Each thread has its own stack.
+    ->Can share .text,.data,heap,.bss Section
+    ->Race around Condition
+        =>shared data.
+        =>Threads are accessing Shared data leads to race condition.
 
 
 
