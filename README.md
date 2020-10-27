@@ -191,6 +191,7 @@ Lecture 7:
         =>User Processes:Non Privileged Ex:MP3,Editor
         =>Ex:QNX,Minix
 
+Lecture 8:
 
 *Thread:
     ->POSIX:Portable Operating System Interface for Unices.
@@ -209,6 +210,19 @@ Lecture 7:
         =>shared data.
         =>Threads are accessing Shared data leads to race condition.
 
+Lecture 9:
 
+*Mutual Exclusion:
+    ->Mutex(pthread_mutex_t)
+        =>Futex
+        =>Recursive Mutex
+        =>Adaptive Mutex(Multiprocessing System)
+        =>Error Checking Mutex
+
+    ->Semaphore:(sem_t)
+        =>Binary
+            *Mutual Exclusion(Initial value =1)
+            *Signalling
+        =>Counting
 
 
