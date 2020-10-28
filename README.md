@@ -230,5 +230,11 @@ Lecture 10:
 *Signalling Semaphore:
     ->sem_t
     ->Initial Value:0/1
+*Counting Semaphore:
+    ->Initial value:N(No. of resources you want to manage)
 
-
+*Parent and Child:
+    ->Zombie Process:
+        =>when child lefts before the parent it goes into zombie state before getting destroyed.
+    ->Inheritance: 
+        =>when parent lefts first inheritance of child is needed.
