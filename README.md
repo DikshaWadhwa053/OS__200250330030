@@ -225,4 +225,10 @@ Lecture 9:
             *Signalling
         =>Counting
 
+Lecture 10:
+
+*Signalling Semaphore:
+    ->sem_t
+    ->Initial Value:0/1
+
 
