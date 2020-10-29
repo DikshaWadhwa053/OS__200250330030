@@ -238,7 +238,7 @@ Lecture 10:
         =>when child lefts before the parent it goes into zombie state before getting destroyed.
     ->Inheritance: (Orphan Processes)
         =>when parent lefts first inheritance of child is needed.
-        =>Daemon processes.
+        =>Daemon processes.(Assignment)
 
 Lecture 11:
 
@@ -249,4 +249,26 @@ Lecture 11:
     rdlock:for Reading access
     wrlock:for Writing access
 
-    
+*Scheduling Algorithms:
+    ->Round Robbin: 
+        =>Time Slicing
+        =>Time slice 
+        =>Quantum time:Optimum value shuld be choosen
+            ->can be fixed(RTOS) or varying(Linux)
+        =>Quantum period
+    ->Shortest job first:high throughput
+        =>Pre-emitive
+        =>Non Preemitive
+    ->Priorty Based Algorithm:Ageing
+        =>Pre-emitive(Giving up cpu for highest priority jobs)
+        =>Non preemitive
+        =>better Response time
+    ->FIFO
+        =>Poor Response time
+        =>Good background :no break in between
+    ->Multilevel Scheduling
+        =>joining one or more algos depending on the requirement
+*RTOS:Priority based primitive scheduling
+*If processes of same priority then Round Robbin 
+
+Assignment:Scheduling algorithm used in linux?
