@@ -236,5 +236,17 @@ Lecture 10:
 *Parent and Child:
     ->Zombie Process:
         =>when child lefts before the parent it goes into zombie state before getting destroyed.
-    ->Inheritance: 
+    ->Inheritance: (Orphan Processes)
         =>when parent lefts first inheritance of child is needed.
+        =>Daemon processes.
+
+Lecture 11:
+
+*Read_Write Locks:
+    ->Multiple access in critical section is possible 
+    ->Read only access in multiple files is possible.
+    ->rwlock_attr setkind np
+    rdlock:for Reading access
+    wrlock:for Writing access
+
+    
