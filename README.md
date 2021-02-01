@@ -287,3 +287,20 @@ RTOS:2
 *Write your own primitives for synchronization
     ->Barriers
     ->Conditional Variables
+
+Lecture 12:
+
+
+*Message Queue
+	->IPC mechanism
+	->Kernal Space
+	->Variable Size
+	->Inbuilt Synchronization
+	->Bidirectional
+	->slow compared to Shared Memory
+	->mqd_t opaque data type
+	->mq_open
+	->mq_close
+	->mq_send
+	->mq_receieve
+	->mq_attr-- flags,maxmsg,msgsize,curmsgs
