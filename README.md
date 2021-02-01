@@ -272,3 +272,18 @@ Lecture 11:
 *If processes of same priority then Round Robbin 
 
 Assignment:Scheduling algorithm used in linux?
+
+
+RTOS:2
+
+*Conditional Variables
+    ->Solved problem of busy looping in critical section
+    ->pthread_cond_t
+    ->pthread_cond_init
+    ->pthread_cond_destroy
+    ->pthread_cond_wait
+    ->pthread_cond_signal
+
+*Write your own primitives for synchronization
+    ->Barriers
+    ->Conditional Variables
